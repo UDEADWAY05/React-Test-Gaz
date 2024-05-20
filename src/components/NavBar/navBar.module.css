@@ -1,0 +1,15 @@
+.navbar {
+  @apply bg-white h-[100vh] w-[10vh] min-w-[80px] items-center flex flex-col border-r-2 p-2;
+}
+
+.linkIcon {
+  @apply w-[40px] p-2 hover:bg-gray-200 rounded-md m-2 active:bg-blue-200;
+}
+
+.navBarLogo {
+  @apply h-[78px] flex border-b-2 w-full items-center justify-center;
+}
+
+.navBarLinks {
+  @apply mt-5;
+}

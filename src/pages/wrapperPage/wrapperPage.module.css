@@ -1,0 +1,3 @@
+.wrapper {
+  @apply bg-slate-400 flex w-[100vw];
+}

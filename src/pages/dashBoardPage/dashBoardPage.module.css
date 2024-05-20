@@ -1,0 +1,7 @@
+.dashBoard {
+  @apply bg-gray-50 w-full;
+}
+
+.dashBoardMain {
+  @apply p-5;
+}
