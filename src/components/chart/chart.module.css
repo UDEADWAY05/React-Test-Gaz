@@ -1,0 +1,19 @@
+.chart {
+  @apply flex flex-col bg-white p-5 rounded-lg w-full border-dashed border-2;
+}
+
+.chartDiv {
+  @apply flex w-full h-full;
+}
+
+.chartText {
+  @apply font-semibold text-xl;
+}
+
+.item {
+  @apply w-[220px] h-[100px];
+}
+
+.textQuantity {
+  @apply text-blue-500 font-bold text-4xl;
+}

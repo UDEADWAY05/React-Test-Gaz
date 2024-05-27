@@ -1,0 +1,27 @@
+.infoCard {
+  @apply flex flex-row justify-between 
+  bg-gray-100 p-4  w-full rounded-md items-center;
+}
+
+.infoCardLabel {
+  @apply font-semibold text-xl;
+}
+
+.infoCardNums {
+}
+
+.text {
+  @apply font-semibold text-xl;
+}
+
+.redText {
+  @apply font-semibold text-xl text-red-600;
+}
+
+.blueText {
+  @apply font-semibold text-xl text-blue-500;
+}
+
+.infoCardNums {
+  @apply flex px-2 py-1 items-center font-semibold;
+}

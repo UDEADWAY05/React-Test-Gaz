@@ -1,0 +1,41 @@
+.selector {
+  @apply mx-4 w-full rounded-sm flex items-center
+  flex-col text-base font-normal relative md:w-[200px];
+}
+
+.selectorLabel {
+  @apply flex items-center justify-between w-[200px] border-[1px] bg-white py-2 px-3
+  rounded-lg outline-none caret-black shadow-sm
+  hover:border-blue-400 focus:border-blue-400 md:w-[200px] cursor-pointer;
+}
+
+.selectorDownIcon {
+  @apply items-center w-[24px] h-[24px];
+}
+
+.selectorCloseIcon {
+  @apply items-center w-[24px] h-[15px];
+}
+
+.selectorCard {
+  @apply absolute 
+  top-full my-2 bg-white 
+  border w-full rounded-md py-2 text-base
+  font-normal max-h-[200px] border-2 border-blue-200
+  w-[200px] overflow-y-auto;
+}
+
+.selectorItem {
+  @apply flex justify-between 
+  text-base cursor-pointer font-normal 
+  text-black hover:bg-zinc-100 items-center;
+}
+
+.selectorItemLabel {
+  @apply px-2 py-1 w-full;
+}
+
+.selectorNotFound {
+  @apply px-4 py-1 text-base 
+  cursor-pointer font-normal text-black;
+}

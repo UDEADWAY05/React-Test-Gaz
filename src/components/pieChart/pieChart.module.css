@@ -1,0 +1,27 @@
+.pieChartCard {
+  @apply flex flex-col bg-white p-5 w-full items-center justify-center border-2 rounded-md border-dashed;
+}
+
+.cellValue {
+  @apply flex bg-black w-[50px] h-[50px];
+}
+
+.activeTime {
+  @apply flex flex-col font-bold m-2 items-center justify-center;
+}
+
+.passiveTime {
+  @apply flex font-normal m-2;
+}
+
+.pieChartTitle {
+  @apply font-bold text-xl;
+}
+
+.iconCircle {
+  @apply w-2;
+}
+
+.pieButtonsType {
+  @apply mt-2 flex justify-center;
+}

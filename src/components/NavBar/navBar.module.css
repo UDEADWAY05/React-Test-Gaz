@@ -1,0 +1,38 @@
+.navBar {
+  @apply flex fixed z-10 bg-white h-[100vh] w-[10vh]
+  min-w-[80px] items-center flex-col border-r-2 p-2;
+}
+
+.navBarFull {
+  @apply flex fixed z-10 bg-white h-[100vh] 
+  w-[280px] items-center flex-col border-r-2 p-2;
+}
+
+.link {
+  @apply max-w-[200px] border-r-0 flex m-2;
+}
+
+.linkDiv {
+  @apply m-1 flex p-2 hover:bg-gray-200 rounded-md
+  active:bg-blue-200 w-[220px] md:w-[40px];
+}
+
+.activeLink {
+  @apply border-r-2 border-r-blue-300 flex h-[48px] m-2;
+}
+
+.linkIcon {
+  @apply w-[24px] h-[24px] fill-red-50;
+}
+
+.linkLabel {
+  @apply px-4;
+}
+
+.navBarLogo {
+  @apply w-[40px] h-[78px] flex border-b-2 w-full items-center justify-center;
+}
+
+.navBarLinks {
+  @apply mt-5;
+}

@@ -1,0 +1,16 @@
+.tasks {
+  @apply p-5 mt-5 w-full rounded-md 
+  bg-white border-dashed border-2;
+}
+
+.tasksTitle {
+  @apply font-semibold text-xl;
+}
+
+.tasksHeader {
+  @apply flex my-2 items-center;
+}
+
+.tasksBody {
+  @apply my-4 grid justify-center grid-cols-1 gap-[20px] sd:grid-cols-2 lg:grid-cols-3 xg:grid-cols-4;
+}

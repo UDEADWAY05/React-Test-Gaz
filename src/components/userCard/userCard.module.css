@@ -1,0 +1,19 @@
+.infoUser {
+  @apply flex;
+}
+
+.infoUserMain {
+  @apply flex flex-col text-right;
+}
+
+.infoUserText {
+  @apply text-base font-normal font-sans leading-4;
+}
+
+.infoUserName {
+  @apply text-base font-bold font-sans;
+}
+
+.infoUserImage {
+  @apply w-[45px] rounded-full mx-2;
+}
