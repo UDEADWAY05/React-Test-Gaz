@@ -1,0 +1,7 @@
+.tableCard {
+  @apply px-4;
+}
+
+.tableCardMain {
+  @apply flex items-center justify-center;
+}

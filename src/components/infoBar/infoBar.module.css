@@ -1,0 +1,17 @@
+.infoBar {
+  @apply p-5 border-b-2 justify-between flex items-center;
+}
+
+.infoBarTitle {
+  @apply flex items-center text-2xl font-bold text-gray-500;
+}
+
+.infoBarRight {
+  @apply flex;
+}
+
+.infoBarButton {
+  @apply flex items-center justify-center w-10 h-10
+  bg-blue-400 p-2 mx-4 cursor-pointer rounded-md hover:bg-blue-500 active:bg-blue-600
+  md:hidden transition-all duration-300;
+}

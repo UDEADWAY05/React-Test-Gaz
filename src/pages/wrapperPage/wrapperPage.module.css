@@ -1,0 +1,11 @@
+.wrapper {
+  @apply bg-gray-100 flex w-[100vw] md:w-full;
+}
+
+.wrapperMain {
+  @apply m-0 bg-gray-50 w-full md:ml-[10vh];
+}
+
+.wrapperNavBar {
+  @apply hidden md:flex;
+}
