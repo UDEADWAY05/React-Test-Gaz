@@ -10,19 +10,22 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-height: 100vh;
-  width: 100vw;
-  height: 100vh;
-}
-
-App {
-  width: 100vw;
+.App {
+  @apply min-h-[100vh] flex overflow-x-hidden;
 }
 
 h1 {
   @apply text-5xl;
+}
+
+::-webkit-scrollbar {
+  @apply w-2;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-blue-400 rounded-md opacity-75;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-transparent my-3 z-50;
 }

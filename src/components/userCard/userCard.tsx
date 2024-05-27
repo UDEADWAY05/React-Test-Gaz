@@ -1,12 +1,12 @@
 import { FC } from "react";
-import styles from "./infoUser.module.css";
+import styles from "./userCard.module.css";
 
-interface InfoUserProps {
+interface UserCardProps {
   name: string,
   img: string,
 };
 
-export const InfoUser: FC<InfoUserProps> = ({ name, img }) => {
+export const UserCard: FC<UserCardProps> = ({ name, img }) => {
   return <div className={styles.infoUser}>
     <div className={styles.infoUserMain}>
       <p className={styles.infoUserText}>

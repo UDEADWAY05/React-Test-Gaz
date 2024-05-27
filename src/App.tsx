@@ -2,30 +2,29 @@ import './index.css';
 import { Route, Routes } from 'react-router-dom';
 import { WrapperPage } from './pages/wrapperPage';
 import { DashBoardPage } from './pages/dashBoardPage';
-import { MantineProvider } from '@mantine/core';
+import { MainPage } from './pages/MainPage';
+import { ChatPage } from './pages/ChatPage';
 
 export const paths = {
   home: "/",
   dashBoard: "/dashBoard",
   message: "/message"
-} 
+};
 
 function App() {
   return (
     <div className="App">
-      <MantineProvider>
         <Routes>
           <Route path={paths.home} element={
             <WrapperPage />
           }>
-            <Route index element={<h1>Info</h1>}></Route>
+            <Route index element={<MainPage />} />
             <Route path={paths.dashBoard} element={ 
               <DashBoardPage />
             } />
-            <Route path={paths.message} element={<h1>Message</h1>}></Route>
+            <Route path={paths.message} element={<ChatPage />} />
           </Route>
         </Routes>
-      </MantineProvider>
     </div>
   )
 }

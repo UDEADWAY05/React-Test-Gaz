@@ -1,0 +1,58 @@
+.table {
+  @apply min-h-[320px] h-full bg-white 
+  rounded-md border-2 border-dashed;
+}
+
+.tableHeader {
+  @apply p-5 flex items-center justify-between;
+}
+
+.tableLabel {
+  @apply font-bold text-2xl;
+}
+
+.tableMain {
+  @apply w-full items-center;
+}
+
+.mainHead {
+}
+
+.mainBody {
+  @apply w-full overflow-y-auto;
+}
+
+.tableItem {
+  @apply h-[50px] items-center justify-center 
+  hover:bg-gray-100;
+}
+
+.tableItemEven {
+  @apply h-[50px] bg-gray-50 items-center justify-center 
+  hover:bg-gray-100;
+}
+
+.tableItemTitle {
+  @apply p-4 cursor-pointer;
+}
+
+.tableItemButton {
+  @apply flex bg-gray-200 w-8 items-center 
+  h-8 justify-center p-2 rounded-md;
+}
+
+.successPoint {
+  @apply w-4 h-4 rounded-full bg-[#4cb545];
+}
+
+.failedPoint {
+  @apply w-4 h-4 rounded-full bg-[#eb4034];
+}
+
+.workingPoint {
+  @apply w-4 h-4 rounded-full bg-[#4ddbeb];
+}
+
+.pendingPoint {
+  @apply w-4 h-4 rounded-full bg-[#347deb];
+}

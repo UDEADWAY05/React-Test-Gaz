@@ -1,7 +1,15 @@
 .dashBoard {
-  @apply bg-gray-50 w-full;
+  @apply flex bg-gray-50 w-full justify-center;
 }
 
 .dashBoardMain {
-  @apply p-5;
+  @apply p-5 w-full;
+}
+
+.chartsDiv {
+  @apply grid justify-center grid-cols-1 gap-[20px] sd:grid-cols-2 lg:grid-cols-3 xg:grid-cols-4;
+}
+
+.pieAndTable {
+  @apply flex flex-col mt-5 dl:flex-row;
 }
